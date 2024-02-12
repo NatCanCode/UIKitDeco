@@ -33,7 +33,13 @@ class ViewController: UIViewController {
     }
 
     func updateUI() {
-        imageView.image = UIImage(named: images[currentIndex])
+        UIView.transition(with: imageView,
+                                  duration: 0.5,
+                                  options: .transitionCrossDissolve,
+                                  animations: {
+                                      self.imageView.image = UIImage(named: self.images[self.currentIndex])
+                                  },
+                                  completion: nil)
         descriptionLabel.text = descriptions[currentIndex]
     }
 
