@@ -28,3 +28,8 @@ De manière générale
 
 #### l'ensemble des éléments doivent être au centre de l'écran sur l'axe y
 #### Temps passé : 2h
+
+| Screen shot           |
+:--------------:|
+| ![Simulator Screenshot - iPhone 15 - 2024-02-12 at 12 45 08](https://github.com/NatCanCode/UIKitDeco/assets/77299658/d69ca1a4-0b2e-4ea7-b983-6406cce29bc0) |
+
