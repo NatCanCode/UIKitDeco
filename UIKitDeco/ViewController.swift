@@ -18,6 +18,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func buttonLeft(_ sender: Any) {
 
+    }
+    
+    @IBAction func buttonRight(_ sender: Any) {
+        
+    }
 }
 
