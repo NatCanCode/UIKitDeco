@@ -31,6 +31,7 @@ De manière générale
 
 | Screenshot    | Video         |     
 :--------------:|:--------------:
-| ![Simulator Screenshot - iPhone 15](https://github.com/NatCanCode/UIKitDeco/assets/77299658/d69ca1a4-0b2e-4ea7-b983-6406cce29bc0) | <video src="https://github.com/NatCanCode/UIKitDeco/assets/77299658/a9792805-fd9a-4cdb-b6a6-a8d1816e2cf6"/> |
+| ![Simulator Screenshot - iPhone 15](https://github.com/NatCanCode/UIKitDeco/assets/77299658/d69ca1a4-0b2e-4ea7-b983-6406cce29bc0) | <video src="https://github.com/NatCanCode/UIKitDeco/assets/77299658/f8489d2e-9781-43f9-86f6-18ac788918bb"/> |
+
 
 
