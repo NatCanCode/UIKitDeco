@@ -38,11 +38,11 @@
                                     <constraint firstAttribute="width" constant="52" id="vnm-ZV-Dbi"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.right.fill" catalog="system" title="&gt;">
+                                <buttonConfiguration key="configuration" style="plain" image="chevron.forward.square.fill" catalog="system">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azU-k5-y4A"/>
@@ -55,11 +55,11 @@
                                     <constraint firstAttribute="height" constant="35" id="ABc-Jl-KF7"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system" title="&lt;">
+                                <buttonConfiguration key="configuration" style="plain" image="chevron.backward.square.fill" catalog="system">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTd-6b-E4E"/>
@@ -95,8 +95,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
-        <image name="arrowshape.right.fill" catalog="system" width="128" height="104"/>
+        <image name="chevron.backward.square.fill" catalog="system" width="128" height="114"/>
+        <image name="chevron.forward.square.fill" catalog="system" width="128" height="114"/>
         <image name="img2" width="1244" height="1866"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
