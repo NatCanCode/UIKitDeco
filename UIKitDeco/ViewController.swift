@@ -9,8 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    @IBOutlet weak var image: UIImageView! // Rename imageView + reconnect link
-//    @IBOutlet weak var label: UILabel! // Rename descriptionLabel + reconnect link
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
     

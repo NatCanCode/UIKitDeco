@@ -86,9 +86,7 @@
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="Qh0-Eo-sH7" id="ioZ-n0-bRk"/>
-                        <outlet property="image" destination="bnv-74-g4W" id="TJk-jc-rgu"/>
                         <outlet property="imageView" destination="bnv-74-g4W" id="9cG-FG-uk8"/>
-                        <outlet property="label" destination="Qh0-Eo-sH7" id="4FH-Fg-GGK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
