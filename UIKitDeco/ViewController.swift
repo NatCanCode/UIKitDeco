@@ -9,35 +9,46 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var image: UIImageView! // Rename imageView + reconnect link
+//    @IBOutlet weak var image: UIImageView! // Rename imageView + reconnect link
+//    @IBOutlet weak var label: UILabel! // Rename descriptionLabel + reconnect link
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     let images = [
         "img1",
         "img2",
         "img3",
         "img4"
     ]
-
-    @IBOutlet weak var label: UILabel! // Rename descriptionLabel + reconnect link
     let descriptions = [
         "Fauteuil élégant accompagné de son repose pieds jaune orangé",
         "Ce luminaire est tout simplement parfait pour sublimer votre table a manger ou un salon",
         "Chaise blanche de style scandinave",
-        "Sofa vert en velou"
+        "Sofa vert en velour"
     ]
+
+    var currentIndex = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        updateUI()
     }
 
-    @IBAction func buttonLeft(_ sender: Any) {
-        print("Left button pressed")
-        // image.image = UIImage(named: )
+    func updateUI() {
+        imageView.image = UIImage(named: images[currentIndex])
+        descriptionLabel.text = descriptions[currentIndex]
+    }
 
+    @IBAction func buttonLeft(_ sender: UIButton) {
+        print("Left button pressed")
+        currentIndex = (currentIndex - 1 + images.count) % images.count
+        updateUI()
     }
     
-    @IBAction func buttonRight(_ sender: Any) {
+    @IBAction func buttonRight(_ sender: UIButton) {
         print("Right button pressed")
+        currentIndex = (currentIndex + 1) % images.count
+        updateUI()
     }
 }
 

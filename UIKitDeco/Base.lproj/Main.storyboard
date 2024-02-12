@@ -16,13 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-74-g4W">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-74-g4W" userLabel="ImageView">
                                 <rect key="frame" x="76" y="392" width="278" height="148"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bnv-74-g4W" secondAttribute="height" multiplier="15:8" id="o85-eu-sjd"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cnvqfkeingq lqfnq  qlkfn,qlùg,vg vlqùnvg qgv vqùlgvn qlkv " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qh0-Eo-sH7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ce luminaire est tout simplement parfait pour sublimer votre table a manger ou un salon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qh0-Eo-sH7" userLabel="descriptionLabel">
                                 <rect key="frame" x="76" y="547.66666666666663" width="278" height="38.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38.329999999999998" id="zMU-Qf-5aa"/>
@@ -85,7 +85,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="descriptionLabel" destination="Qh0-Eo-sH7" id="ioZ-n0-bRk"/>
                         <outlet property="image" destination="bnv-74-g4W" id="TJk-jc-rgu"/>
+                        <outlet property="imageView" destination="bnv-74-g4W" id="9cG-FG-uk8"/>
                         <outlet property="label" destination="Qh0-Eo-sH7" id="4FH-Fg-GGK"/>
                     </connections>
                 </viewController>
