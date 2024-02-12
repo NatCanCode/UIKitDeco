@@ -27,3 +27,4 @@ doivent être positionnés au centre de l'écran sur l'axe y
 De manière générale
 
 #### l'ensemble des éléments doivent être au centre de l'écran sur l'axe y
+#### Temps passé : 2h
